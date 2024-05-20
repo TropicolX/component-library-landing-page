@@ -141,7 +141,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer">
 							<img
 								alt="Component 1"
 								height="100"
@@ -159,7 +159,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
 							<img
 								alt="Component 2"
 								height="100"
@@ -177,7 +177,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
 							<img
 								alt="Component 3"
 								height="100"
@@ -195,7 +195,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
 							<img
 								alt="Component 4"
 								height="100"
@@ -215,7 +215,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
 							<img
 								alt="Component 5"
 								height="100"
@@ -233,7 +233,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
 							<img
 								alt="Component 6"
 								height="100"
