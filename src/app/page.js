@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 export default function Home() {
 	return (
 		<div key="1" className="flex flex-col min-h-screen">
-			<nav className="flex items-center justify-between gap-4 px-4 py-2 border-b border-gray-100 md:gap-6 md:px-6 dark:border-gray-800">
+			<nav className="flex items-center justify-between gap-4 px-4 py-2 border-b border-gray-100 md:gap-6 md:px-6">
 				<div className="flex items-center space-x-2">
 					<Link
 						className="flex items-center gap-2 font-semibold pr-2"
@@ -55,20 +55,20 @@ export default function Home() {
 									Speed up your workflow with beautifully
 									designed components
 								</h1>
-								<p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+								<p className="max-w-[600px] text-gray-500 md:text-xl">
 									Accessible. Customizable. Open Source.
 									Designed for developer happiness.
 								</p>
 							</div>
 							<div className="flex flex-col gap-2 min-[400px]:flex-row">
 								<Link
-									className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+									className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 									href="#"
 								>
 									Get Started
 								</Link>
 								<Link
-									className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+									className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 									href="#"
 								>
 									GitHub
@@ -136,12 +136,12 @@ export default function Home() {
 						<h2 className="text-3xl font-bold tracking-tighter">
 							Components
 						</h2>
-						<p className="text-gray-500 dark:text-gray-400">
+						<p className="text-gray-500">
 							Browse through our collection of components.
 						</p>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer">
 							<img
 								alt="Component 1"
 								height="100"
@@ -153,13 +153,11 @@ export default function Home() {
 								width="180"
 							/>
 							<h3 className="text-lg font-semibold mt-2">Hero</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								30 components
-							</p>
+							<p className="text-gray-500">30 components</p>
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer">
 							<img
 								alt="Component 2"
 								height="100"
@@ -171,13 +169,11 @@ export default function Home() {
 								width="180"
 							/>
 							<h3 className="text-lg font-semibold mt-2">Card</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								25 components
-							</p>
+							<p className="text-gray-500">25 components</p>
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer">
 							<img
 								alt="Component 3"
 								height="100"
@@ -189,13 +185,11 @@ export default function Home() {
 								width="180"
 							/>
 							<h3 className="text-lg font-semibold mt-2">Form</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								20 components
-							</p>
+							<p className="text-gray-500">20 components</p>
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer">
 							<img
 								alt="Component 4"
 								height="100"
@@ -209,13 +203,11 @@ export default function Home() {
 							<h3 className="text-lg font-semibold mt-2">
 								Button
 							</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								40 components
-							</p>
+							<p className="text-gray-500">40 components</p>
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer">
 							<img
 								alt="Component 5"
 								height="100"
@@ -227,13 +219,11 @@ export default function Home() {
 								width="180"
 							/>
 							<h3 className="text-lg font-semibold mt-2">Tabs</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								35 components
-							</p>
+							<p className="text-gray-500">35 components</p>
 						</div>
 					</div>
 					<div className="col-span-1 md:col-span-1">
-						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 cursor-pointer ">
+						<div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md cursor-pointer ">
 							<img
 								alt="Component 6"
 								height="100"
@@ -247,9 +237,7 @@ export default function Home() {
 							<h3 className="text-lg font-semibold mt-2">
 								Pricing
 							</h3>
-							<p className="text-gray-500 dark:text-gray-400">
-								30 components
-							</p>
+							<p className="text-gray-500">30 components</p>
 						</div>
 					</div>
 				</div>
@@ -260,7 +248,7 @@ export default function Home() {
 						<h2 className="text-3xl font-bold tracking-tighter">
 							Templates
 						</h2>
-						<p className="text-gray-500 dark:text-gray-400">
+						<p className="text-gray-500">
 							Browse through our collection of templates.
 						</p>
 					</div>
@@ -270,12 +258,12 @@ export default function Home() {
 								<h3 className="text-lg font-semibold">
 									Neo SaaS Template
 								</h3>
-								<p className="text-gray-500 dark:text-gray-400">
+								<p className="text-gray-500">
 									A modern and sleek SaaS template for your
 									next project.
 								</p>
 								<Link
-									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 									href="#"
 								>
 									View Template
@@ -311,12 +299,12 @@ export default function Home() {
 								<h3 className="text-lg font-semibold">
 									Creative Portfolio Template
 								</h3>
-								<p className="text-gray-500 dark:text-gray-400">
+								<p className="text-gray-500">
 									Showcase your work in style with this
 									creative portfolio template.
 								</p>
 								<Link
-									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 									href="#"
 								>
 									View Template
@@ -352,12 +340,12 @@ export default function Home() {
 								<h3 className="text-lg font-semibold">
 									E-commerce Shop Template
 								</h3>
-								<p className="text-gray-500 dark:text-gray-400">
+								<p className="text-gray-500">
 									Start selling online with this feature-rich
 									e-commerce shop template.
 								</p>
 								<Link
-									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+									className="inline-block w-fit text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-center text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 									href="#"
 								>
 									View Template
@@ -398,33 +386,33 @@ export default function Home() {
 							Why Our Templates & Components
 						</h2>
 					</div>
-					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 h-full">
+					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md h-full">
 						<BoltIcon className="w-24 h-24" />
 						<h3 className="text-lg font-semibold mt-2">
 							Blazing Fast
 						</h3>
-						<p className="text-gray-500 dark:text-gray-400 leading-relaxed text-center">
+						<p className="text-gray-500 leading-relaxed text-center">
 							Our components are optimized for lightning-fast
 							performance, ensuring your app loads quickly and
 							responsively.
 						</p>
 					</div>
-					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 h-full">
+					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md h-full">
 						<AlignCenterHorizontalIcon className="w-24 h-24" />
 						<h3 className="text-lg font-semibold mt-2">
 							Highly Customizable
 						</h3>
-						<p className="text-gray-500 dark:text-gray-400 leading-relaxed text-center">
+						<p className="text-gray-500 leading-relaxed text-center">
 							Tailor our components to match your brand&apos;s
 							style and design preferences with ease.
 						</p>
 					</div>
-					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md dark:bg-gray-950 h-full">
+					<div className="col-span-1 md:col-span-1 flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md h-full">
 						<SparklesIcon className="w-24 h-24" />
 						<h3 className="text-lg font-semibold mt-2">
 							Beautiful Design
 						</h3>
-						<p className="text-gray-500 dark:text-gray-400 leading-relaxed text-center">
+						<p className="text-gray-500 leading-relaxed text-center">
 							Our templates and components are crafted with an eye
 							for detail, ensuring a visually stunning user
 							experience.
@@ -432,7 +420,7 @@ export default function Home() {
 					</div>
 					<div className="sm:col-span-3 flex items-center justify-center">
 						<Link
-							className="inline-block mt-6 text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+							className="inline-block mt-6 text-sm font-semibold rounded-md bg-gray-900 px-4 py-2 text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
 							href="#"
 						>
 							View Templates
@@ -446,7 +434,7 @@ export default function Home() {
 						<h2 className="text-3xl font-bold tracking-tighter text-center">
 							New Templates Bi-Weekly Newsletter
 						</h2>
-						<p className="text-gray-500 dark:text-gray-400 text-center mt-4">
+						<p className="text-gray-500 text-center mt-4">
 							Subscribe to our newsletter to receive the latest
 							templates every two weeks.
 						</p>
